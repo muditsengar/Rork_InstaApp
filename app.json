@@ -15,14 +15,17 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.instagram-feed-ui-design-d2ureci"
+      "bundleIdentifier": "app.rork.instagram-feed-ui-design-d2ureci",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.instagram-feed-ui-design-d2ureci"
+      "package": "com.mudit_appypiellp.instagramfeeduidesignd2ureci"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
